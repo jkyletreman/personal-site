@@ -66,17 +66,31 @@ header, .banner {
   background-color: var(--grey);
 }
 
-.list-container, #skills-container {
+.list-container {
   display: grid;
+}
+
+#skills-container {
   grid-template-columns: repeat(3, 1fr);
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--title);
 }
 
 ul {
   padding-top: 2rem;
   line-height: 2rem;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 li {
   font-family: var(--text);
   list-style: none;
+}
+
+#projects-list {
+  text-align: left;
 }
