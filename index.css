@@ -1,0 +1,141 @@
+/* variables */
+:root {
+  --blue: rgba(111, 143, 204, .8);
+  --grey: rgba(0, 0, 0, .3);
+  --title: 'Gugi', cursive;
+  --text: 'Montserrat', sans-serif;
+}
+
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* picture contact info */
+
+header, .banner {
+  background-color: var(--blue);
+  width: 100%;
+  text-align: center;
+  height: 400px;
+}
+
+.profile-container {
+  padding-top: 2rem;
+}
+
+.profile-img {
+  background-image: url("https://image.ibb.co/eML677/Profile.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 2em;
+  font-family: var(--title);
+}
+
+.summary, .contact-info {
+  font-family: var(--text);
+  padding-top: .8rem;
+}
+
+.summary {
+  font-size: 1.4em;
+}
+
+/* sections */
+
+.card {
+  min-height: 400px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2em;
+  margin: 0 auto;
+}
+
+.sub-title {
+  font-family: var(--title);
+  padding-top: 1rem;
+  font-size: 1.8em;
+}
+
+#section-projects {
+  background-color: var(--blue);
+}
+
+#section-skills, #call-to-action {
+  background-color: var(--grey);
+}
+
+.list-container {
+  display: grid;
+}
+
+/* skills section */
+
+#skills-container {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--title);
+}
+
+ul {
+  padding-top: 2rem;
+  line-height: 2rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+li {
+  font-family: var(--text);
+  list-style: none;
+  padding-top: 2%;
+}
+
+/* projects section */
+
+#projects-list {
+  text-align: left;
+  line-height: 2em;
+}
+
+/* footer */
+
+#sticky-footer {
+  background-color: var(--grey);
+  display: grid;
+  grid-template-columns: 1fr, 2fr, 1fr;
+  height: 60px;
+}
+
+.footer-item {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 1.2em;
+  grid-row: 1;
+  padding-top: 1rem;
+}
+
+#footer-left {
+  grid-column: 1;
+}
+
+#footer-middle{
+  grid-column: 2;
+  font-size: 1.5em;
+}
+
+#footer-right {
+  grid-column: 3;
+}
