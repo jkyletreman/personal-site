@@ -2,6 +2,7 @@
 :root {
   --blue: rgba(111, 143, 204, .7);
   --grey: rgba(0, 0, 0, .2);
+  --accent: rgb(204, 94, 24);
   --title: 'Gugi', cursive;
   --text: 'Montserrat', sans-serif;
 }
@@ -110,6 +111,11 @@ li {
   line-height: 2em;
 }
 
+#project-title {
+  color: var(--accent);
+  font-size: 1.2em;
+}
+
 /* footer */
 
 #sticky-footer {
@@ -126,6 +132,7 @@ li {
   font-size: 1.2em;
   grid-row: 1;
   padding-top: 1rem;
+
 }
 
 #footer-left {
@@ -135,6 +142,11 @@ li {
 #footer-middle{
   grid-column: 2;
   font-size: 1.5em;
+  text-align: center;
+}
+
+#footer-text{
+  color: var(--accent);
 }
 
 #footer-right {
