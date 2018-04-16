@@ -1,3 +1,4 @@
+/* variables */
 :root {
   --blue: rgba(111, 143, 204, .8);
   --grey: rgba(0, 0, 0, .3);
@@ -5,11 +6,15 @@
   --text: 'Montserrat', sans-serif;
 }
 
+/* css reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* picture contact info */
 
 header, .banner {
   background-color: var(--blue);
@@ -45,6 +50,8 @@ header, .banner {
   font-size: 1.4em;
 }
 
+/* sections */
+
 .card {
   min-height: 400px;
   width: 100%;
@@ -71,6 +78,8 @@ header, .banner {
   display: grid;
 }
 
+/* skills section */
+
 #skills-container {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -93,10 +102,14 @@ li {
   padding-top: 2%;
 }
 
+/* projects section */
+
 #projects-list {
   text-align: left;
   line-height: 2em;
 }
+
+/* footer */
 
 #sticky-footer {
   background-color: var(--grey);
