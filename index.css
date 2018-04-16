@@ -1,7 +1,7 @@
 /* variables */
 :root {
-  --blue: rgba(111, 143, 204, .8);
-  --grey: rgba(0, 0, 0, .3);
+  --blue: rgba(111, 143, 204, .7);
+  --grey: rgba(0, 0, 0, .2);
   --title: 'Gugi', cursive;
   --text: 'Montserrat', sans-serif;
 }
@@ -33,11 +33,12 @@ header, .banner {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  border: 3px solid white;
   margin: 0 auto;
 }
 
 .name {
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: var(--title);
 }
 
