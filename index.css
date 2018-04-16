@@ -1,0 +1,45 @@
+:root {
+  --blue: rgb(111, 143, 204);
+  --grey: rgba(0, 0, 0, .6);
+  --title: 'Gugi', cursive;
+  --text: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, .banner {
+  background-color: var(--blue);
+  width: 100%;
+  text-align: center;
+  height: 400px;
+}
+
+.profile-container {
+  padding-top: 2rem;
+}
+.profile-img {
+  background-image: url("https://image.ibb.co/eML677/Profile.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 1.8em;
+  font-family: var(--title);
+}
+
+.summary, .contact-info {
+  font-family: var(--text);
+  padding-top: .8rem;
+}
+
+.summary {
+  font-size: 1.4em;
+}
