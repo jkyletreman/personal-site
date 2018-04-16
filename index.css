@@ -32,7 +32,7 @@ header, .banner {
 }
 
 .name {
-  font-size: 1.8em;
+  font-size: 2em;
   font-family: var(--title);
 }
 
@@ -56,6 +56,7 @@ header, .banner {
 .sub-title {
   font-family: var(--title);
   padding-top: 1rem;
+  font-size: 1.8em;
 }
 
 #section-projects {
@@ -119,6 +120,7 @@ li {
 
 #footer-middle{
   grid-column: 2;
+  font-size: 1.5em;
 }
 
 #footer-right {
