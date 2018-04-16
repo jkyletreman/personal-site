@@ -1,6 +1,6 @@
 :root {
-  --blue: rgb(111, 143, 204);
-  --grey: rgba(0, 0, 0, .6);
+  --blue: rgba(111, 143, 204, .8);
+  --grey: rgba(0, 0, 0, .3);
   --title: 'Gugi', cursive;
   --text: 'Montserrat', sans-serif;
 }
@@ -21,6 +21,7 @@ header, .banner {
 .profile-container {
   padding-top: 2rem;
 }
+
 .profile-img {
   background-image: url("https://image.ibb.co/eML677/Profile.jpg");
   background-size: cover;
@@ -42,4 +43,40 @@ header, .banner {
 
 .summary {
   font-size: 1.4em;
+}
+
+.card {
+  min-height: 400px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2em;
+  margin: 0 auto;
+}
+
+.sub-title {
+  font-family: var(--title);
+  padding-top: 1rem;
+}
+
+#section-projects {
+  background-color: var(--blue);
+}
+
+#section-skills, #call-to-action {
+  background-color: var(--grey);
+}
+
+.list-container, #skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+ul {
+  padding-top: 2rem;
+  line-height: 2rem;
+}
+
+li {
+  font-family: var(--text);
+  list-style: none;
 }
