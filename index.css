@@ -102,6 +102,7 @@ li {
   font-family: var(--text);
   list-style: none;
   padding-top: 2%;
+  font-size: 1.2em;
 }
 
 /* projects section */
